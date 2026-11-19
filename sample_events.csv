@@ -1,0 +1,9 @@
+timestamp,user,source_ip,event_type,details,process
+2026-11-18T08:50:00Z,alex,10.0.0.12,login_success,Interactive login,explorer.exe
+2026-11-18T09:14:00Z,administrator,203.0.113.77,login_failed,Incorrect password,sshd
+2026-11-18T09:15:00Z,administrator,203.0.113.77,login_failed,Incorrect password,sshd
+2026-11-18T09:16:00Z,administrator,203.0.113.77,login_failed,Incorrect password,sshd
+2026-11-18T09:17:00Z,administrator,203.0.113.77,login_success,Password accepted,sshd
+2026-11-18T09:18:00Z,administrator,203.0.113.77,process_start,Encoded command detected,powershell.exe -EncodedCommand ZQBjAGgAbwA=
+2026-11-18T09:21:00Z,backup,10.0.0.20,login_success,Scheduled maintenance,backup-agent
+2026-11-18T09:29:00Z,administrator,203.0.113.77,process_start,Library from network share,rundll32.exe \\\\fileserver\\share\\update.dll
